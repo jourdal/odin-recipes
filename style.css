@@ -1,17 +1,44 @@
-* {
+body {
     font-family: Arial, sans-serif;
+    background: #eee;
 }
 
-h1, .center {
+.card {
     text-align: center;
+    width: 500px;
+    background: #fff;
+    margin: 8px auto;
+    padding: 4px;
 }
 
-.center {
+.link {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 8px;
 }
 
-a {
-    color: cornflowerblue;
+.title {
+    margin-bottom: 0;
+}
+
+.list-card {
+    width: 1000px;
+    background: #fff;
+    margin: 8px auto;
+    padding: 4px;
+}
+
+.ingredients-container,
+.steps-container {
+    text-align: left;
+    margin: auto 18px;
+}
+
+#description-text {
+    text-align: left;
+    margin: auto 18px;
+}
+
+#hamburger-title {
+    margin: 12px;
+    padding: 8px;
 }
